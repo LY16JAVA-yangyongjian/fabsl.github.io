@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>作业</title>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 总容器 */
+        .container {
+            max-width: 100%;
+            height: 800px;
+            background-color: #4BBFC3;
+            margin: 0 auto;
+
+            outline: 1px solid red;
+
+            white-space: nowrap;
+
+
+            /* background-image:url(./img/01.jpg); */
+        }
+
+
+
+        ul {
+            list-style-type: none;
+        }
+
+        .nav {
+            width: 100%;
+
+
+
+            position: fixed;
+            top: 0;
+            left: 0;
+
+        }
+
+        ul.list-wrap {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            background-color: rgba(0, 0, 100, 0.2)
+        }
+
+        li.item {
+            padding: 10px;
+
+        }
+
+        li.item a {
+            color: yellow;
+            text-decoration: none;
+
+        }
+
+
+
+
+        .first-page {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+
+
+        .header-wrap {}
+
+        .header-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+
+            margin-top: 200px;
+
+        }
+
+        .attitude-p {
+
+            margin-top: 10px;
+
+            padding: 20px;
+
+            font-size: 20px;
+
+            color: white;
+
+            border-bottom: 1px solid white;
+
+        }
+
+
+
+        .attitude-p:hover{
+
+            font-size: 25px;
+
+        }
+
+
+
+
+        .item-p {
+            padding: 10px;
+
+            text-align: center;
+
+            color: white;
+
+        }
+
+        .item-p:hover{
+            font-size: 20px;
+
+            padding: 20px;
+
+           
+
+        }
+
+        .first-p {
+
+            margin-top: 10px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="nav">
+            <ul class="list-wrap">
+                <!-- <img src="./img/01.jpg"> -->
+                <li class="item"> <a href="">动态</a> </li>
+                <li class="item"> <a href="">我的简介</a></li>
+                <li class="item"> <a href="">简历</a> </li>
+                <li class="item"> <a href="">博客</a></li>
+            </ul>
+        </div>
+
+        <div class="first-page">
+            <div class="header-wrap">
+                <img class="header-pic" src="./img/QQ.jpg">
+            </div>
+            <div class="content-wrap">
+                <p class="attitude-p">业精于勤，荒于嬉；行成于思，毁于随。</p>
+                <p class="first-p item-p">我叫杨乐乐</p>
+                <p class="second-p item-p">一名前端研发工程师</p>
+                <p class="third-p item-p">yanglele2019@163.com</p>
+
+            </div>
+
+        </div>
+
+        <!-- <div class="main">
+            <div class="about-me">关于我</div>
+
+            <ul class="about-info">
+                <li class="about-item about-age">年龄-24</li>
+                <li class="about-item about-address">坐标-苏州</li>
+                <li class="about-item about-statues">状态-学习ing</li>
+                <li class="about-item about-educational">学历-大专</li>
+            </ul>
+
+            <div class="text-wrap">
+                <p class="text first-text"> 三年全职开发经验 </p>
+                <p class="text second-text"> 熟悉模块化，前端构建和编译 </p>
+                <p class="text third-text"> 高效的自学能力,具备独立分析解决问题能力 </p>
+                <p class="text four-text"> 对新东西充满好奇，强大的自我驱动力 </p>
+                <p class="text five-text"> 超强的毅力 </p>
+            </div>
+        </div> -->
+
+    </div>
+
+
+</body>
+
+
+
+<script>
+    $(document).ready(function () {
+
+
+
+
+
+    });
+
+
+
+
+
+</script>
+
+</html>
